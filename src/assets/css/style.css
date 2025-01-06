@@ -38,6 +38,7 @@ nav h1 {
     font-weight: 700;
     font-size: 35px;
     line-height: 36px;
+    letter-spacing: 3px;
 }
 
 nav .nav-links {
@@ -49,7 +50,7 @@ nav .nav-links {
 nav a {
     font-family: "Epilogue", sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     color: #4640DE;
 }
 
@@ -57,12 +58,13 @@ nav .have-bg {
     padding: 14px 28px;
     background-color: #4640DE;
     color: #FFFFFF;
+    border-radius: 12px;
 }
 
 .hero {
     display: flex;
     flex-direction: column;
-    gap: 3em;
+    gap: 5em;
     justify-content: center;
     align-items: center;
 }
@@ -82,17 +84,21 @@ nav .have-bg {
 
 .hero h1 {
     font-size: 72px;
-    font-family: "ClashDisplay-Variable", sans-serif;
-    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
     color: #25324B;
     line-height: 72px;
 }
 
 .hero p {
-    font-family: "Epilogue", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: #515B6F;
     font-size: 20px;
+}
+
+.hero span {
+    color: #26A4FF;
 }
 
 .hero a {
@@ -103,7 +109,7 @@ nav .have-bg {
     font-weight: 700;
     font-size: 18px;
     line-height: 29px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 footer {
