@@ -6,9 +6,22 @@
     box-sizing: border-box;
 }
 
+/*
+    GLOBAL STYLING START
+*/
+
 a {
     text-decoration: none;
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*
+    GLOBAL STYLING END
+*/
 
 .container {
     width: 100%;
@@ -110,6 +123,47 @@ nav .have-bg {
     font-size: 18px;
     line-height: 29px;
     border-radius: 10px;
+}
+
+.features {
+    width: 100%;
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features .row {
+    gap: 3em;
+}
+
+.features .box {
+    height: 250px;
+    width: 400px;
+    background-color: #4640DE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.cta {
+    padding: 70px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta .cta-cont {
+    height: 300px;
+    background-color: #25324B;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
