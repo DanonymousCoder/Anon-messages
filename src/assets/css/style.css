@@ -141,6 +141,7 @@ nav .have-bg {
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     color: #25324B;
+    font-size: 48px;
 }
 
 .features .row {
@@ -149,8 +150,8 @@ nav .have-bg {
 }
 
 .features .box {
-    height: 270px;
-    width: 430px;
+    height: 300px;
+    width: 450px;
     background-color: #4640DE;
     display: flex;
     flex-direction: column;
@@ -217,20 +218,37 @@ footer {
     width: 100%;
     background-color: #202430;
     display: flex;
-    align-items: flex-end;
-    height: 40vh;
+    align-items: flex-start;
+    height: 20vh;
     justify-content: center;
 }
 
 footer .footer {
     width: 80%;
-    border-top: 1px solid #FFFFFF;
+    height: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
     padding: 20px;
 }
 
+.footer .top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h1 {
+    color: #FFFFFF;
+    letter-spacing: .2em;
+}
+
 .footer p {
+    width: 100%;
+    border-top: 1px solid #FFFFFF;
     color: #FFFFFF;
     opacity: 50%;
+    padding: 20px;
+    text-align: center;
 }
