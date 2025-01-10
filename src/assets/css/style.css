@@ -248,6 +248,8 @@ footer .footer {
 .footer .socials i {
     font-size: 30px;
     color: #FFFFFF;
+    line-height: 25px;
+    background-color: #202430;
 }
 
 .footer h1 {
