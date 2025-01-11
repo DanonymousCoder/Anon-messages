@@ -3,3 +3,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    background-color: #4640DE;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
