@@ -25,3 +25,17 @@
     align-items: center;
     justify-content: center;
 }
+
+.right form {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.fulname,
+.email,
+.pswrd {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
