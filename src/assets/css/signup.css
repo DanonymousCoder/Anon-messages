@@ -26,6 +26,30 @@
     justify-content: center;
 }
 
+.right .head {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+.right h1 {
+    font-weight: 600;
+    font-family: "ClashDisplay-Variable", sans-serif;
+    font-size: 32px;
+    line-height: 39px;
+    color: #202430;
+    width: 80%;
+    text-align: center;
+}
+
+.google {
+    border: 1px solid #CCCCF5;
+    width: 80%;
+}
+
 .right form {
     display: flex;
     flex-direction: column;
