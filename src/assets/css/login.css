@@ -34,13 +34,16 @@ a {
 .container .right .head {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 2em;
+    width: 45%;
 }
 
 .right .head h1 {
     color: #202430;
     font-weight: 700;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 .right .google {
@@ -61,6 +64,7 @@ a {
 
 .right form {
     display: flex;
+    width: 45%;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
@@ -69,6 +73,7 @@ a {
 
 .right form .mail {
     display: flex;
+    width: 100%;
     flex-direction: column;
     gap: 1em;
 }
@@ -77,6 +82,7 @@ a {
     display: flex;
     gap: 1em;
     flex-direction: column;
+    width: 100%;
 }
 
 .right form label {
@@ -97,4 +103,5 @@ a {
     background-color: #4640DE;
     padding: 24px;
     color: #FFFFFF;
+    width: 50%;
 }
